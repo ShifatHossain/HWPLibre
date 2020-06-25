@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>한글문서파일형식_배포용문서_revision1.2-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft10{font-size:12px;font-family:Times;color:#000000;}
+	.ft11{font-size:42px;font-family:Times;color:#000000;}
+	.ft12{font-size:33px;font-family:Times;color:#000000;}
+	.ft13{font-size:21px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page1-div" style="position:relative;width:892px;height:1261px;">
+<img width="892" height="1261" src="한글문서파일형식_배포용문서_revision1.2001.png" alt="background image"/>
+<p style="position:absolute;top:1182px;left:757px;white-space:nowrap" class="ft10">1</p>
+<p style="position:absolute;top:667px;left:169px;white-space:nowrap" class="ft11"><b>글&#160;&#160;문서&#160;&#160;파일&#160;&#160;구조&#160;&#160;-&#160;&#160;배포용&#160;&#160;문서</b></p>
+<p style="position:absolute;top:739px;left:169px;white-space:nowrap" class="ft12"><b>Hwp&#160;&#160;Document&#160;&#160;File&#160;&#160;Formats&#160;&#160;–&#160;</b></p>
+<p style="position:absolute;top:796px;left:169px;white-space:nowrap" class="ft12"><b>Document&#160;&#160;for&#160;&#160;Distribution</b></p>
+<p style="position:absolute;top:854px;left:169px;white-space:nowrap" class="ft13">revision&#160;&#160;1.2:20141009</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>한글문서파일형식_배포용문서_revision1.2-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page2-div" style="position:relative;width:892px;height:1261px;">
+<img width="892" height="1261" src="한글문서파일형식_배포용문서_revision1.2002.png" alt="background image"/>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>한글문서파일형식_배포용문서_revision1.2-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft30{font-size:11px;font-family:Times;color:#ffffff;}
+	.ft31{font-size:30px;font-family:Times;color:#2a5686;}
+	.ft32{font-size:17px;font-family:Times;color:#000000;}
+	.ft33{font-size:15px;font-family:Times;color:#000000;}
+	.ft34{font-size:12px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page3-div" style="position:relative;width:892px;height:1261px;">
+<img width="892" height="1261" src="한글문서파일형식_배포용문서_revision1.2003.png" alt="background image"/>
+<p style="position:absolute;top:85px;left:550px;white-space:nowrap" class="ft30"><b>�글&#160;&#160;문서&#160;&#160;파일&#160;&#160;형식&#160;&#160;–&#160;&#160;배포용&#160;&#160;문서</b></p>
+<p style="position:absolute;top:202px;left:408px;white-space:nowrap" class="ft31">차&#160;&#160;례</p>
+<p style="position:absolute;top:285px;left:135px;white-space:nowrap" class="ft32"><b>저작권&#160;··············································································································&#160;4</b></p>
+<p style="position:absolute;top:354px;left:135px;white-space:nowrap" class="ft32"><b>본&#160;&#160;문서에&#160;&#160;대하여...&#160;·························································································&#160;5</b></p>
+<p style="position:absolute;top:422px;left:135px;white-space:nowrap" class="ft32"><b>배포용&#160;&#160;문서&#160;&#160;데이터&#160;·························································································&#160;6</b></p>
+<p style="position:absolute;top:476px;left:150px;white-space:nowrap" class="ft33"><b>1.&#160;&#160;배포용&#160;&#160;문서&#160;&#160;데이터&#160;···························································································&#160;6</b></p>
+<p style="position:absolute;top:527px;left:150px;white-space:nowrap" class="ft33"><b>2.&#160;&#160;배포용&#160;&#160;문서&#160;&#160;데이터&#160;&#160;복호화&#160;···············································································&#160;7</b></p>
+<p style="position:absolute;top:571px;left:165px;white-space:nowrap" class="ft34">2.1.&#160;&#160;Seed&#160;&#160;찾기&#160;·····························································································································&#160;7</p>
+<p style="position:absolute;top:603px;left:165px;white-space:nowrap" class="ft34">2.2.&#160;&#160;난수&#160;&#160;배열&#160;&#160;만들기&#160;··················································································································&#160;7</p>
+<p style="position:absolute;top:634px;left:165px;white-space:nowrap" class="ft34">2.3.&#160;&#160;해시코드&#160;&#160;추출하기&#160;················································································································&#160;8</p>
+<p style="position:absolute;top:665px;left:165px;white-space:nowrap" class="ft34">2.4.&#160;&#160;해시코드와&#160;&#160;AES-128&#160;&#160;알고리즘을&#160;&#160;이용하여&#160;&#160;레코드&#160;&#160;복호화&#160;·················································&#160;8</p>
+<p style="position:absolute;top:719px;left:135px;white-space:nowrap" class="ft32"><b>변경&#160;&#160;사항&#160;&#160;이력&#160;······························································································&#160;10</b></p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>한글문서파일형식_배포용문서_revision1.2-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft40{font-size:11px;font-family:Times;color:#ffffff;}
+	.ft41{font-size:12px;font-family:Times;color:#000000;}
+	.ft42{font-size:21px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page4-div" style="position:relative;width:892px;height:1261px;">
+<img width="892" height="1261" src="한글문서파일형식_배포용문서_revision1.2004.png" alt="background image"/>
+<p style="position:absolute;top:85px;left:550px;white-space:nowrap" class="ft40"><b>�글&#160;&#160;문서&#160;&#160;파일&#160;&#160;형식&#160;&#160;–&#160;&#160;배포용&#160;&#160;문서</b></p>
+<p style="position:absolute;top:1182px;left:757px;white-space:nowrap" class="ft41">1</p>
+<p style="position:absolute;top:149px;left:140px;white-space:nowrap" class="ft42"><b>저작권</b></p>
+<p style="position:absolute;top:195px;left:180px;white-space:nowrap" class="ft41">(주)한글과컴퓨터(이하&#160;‘한컴’)는&#160;문서&#160;형식의&#160;개방성과&#160;표준화에&#160;대하여&#160;적극&#160;찬성합니다.&#160;한컴</p>
+<p style="position:absolute;top:219px;left:180px;white-space:nowrap" class="ft41">은&#160;&#160;�글&#160;&#160;97의&#160;문서&#160;&#160;형식을&#160;&#160;무상으로&#160;&#160;지원한&#160;바&#160;&#160;있으며,&#160;�글&#160;2002~2010&#160;&#160;문서의&#160;XML&#160;형식은&#160;</p>
+<p style="position:absolute;top:243px;left:180px;white-space:nowrap" class="ft41">HWPML에&#160;대해서도&#160;문서&#160;형식을&#160;공개한&#160;바&#160;있습니다.&#160;개방형&#160;문서&#160;표준화&#160;및&#160;코드&#160;관련&#160;위원회에</p>
+<p style="position:absolute;top:267px;left:180px;white-space:nowrap" class="ft41">도&#160;적극적으로&#160;참여하여&#160;파일&#160;형식의&#160;표준화와&#160;개방성을&#160;위해&#160;노력해&#160;왔습니다.&#160;이러한&#160;결과로&#160;</p>
+<p style="position:absolute;top:291px;left:180px;white-space:nowrap" class="ft41">HWPML&#160;스펙이&#160;OWPML란&#160;이름으로&#160;한국산업표준(KS&#160;X&#160;6101:2011)으로&#160;제정되었습니다.&#160;또</p>
+<p style="position:absolute;top:315px;left:180px;white-space:nowrap" class="ft41">한,&#160;&#160;한컴오피스에서&#160;&#160;기록물&#160;&#160;장기보존&#160;&#160;표준&#160;&#160;포맷인&#160;&#160;PDF/A-1의&#160;&#160;지원과&#160;&#160;ISO&#160;&#160;국제&#160;&#160;문서&#160;&#160;형식인&#160;</p>
+<p style="position:absolute;top:339px;left:180px;white-space:nowrap" class="ft41">ODF와&#160;&#160;OOXML&#160;&#160;파일&#160;&#160;형식의&#160;&#160;불러오기와&#160;&#160;저장하기를&#160;&#160;적극적으로&#160;&#160;지원하였습니다.</p>
+<p style="position:absolute;top:370px;left:180px;white-space:nowrap" class="ft41">본&#160;문서를&#160;열람하고자&#160;하는&#160;자라면&#160;누구에게나&#160;제공되는&#160;것이며,&#160;본&#160;문서를&#160;열람하는&#160;것&#160;외에&#160;</p>
+<p style="position:absolute;top:394px;left:180px;white-space:nowrap" class="ft41">복사,&#160;&#160;배포,&#160;&#160;게재&#160;&#160;및&#160;&#160;본&#160;&#160;문서에&#160;&#160;기재되어&#160;&#160;있는&#160;&#160;내용을&#160;&#160;사용하고자&#160;&#160;하는&#160;&#160;자는&#160;&#160;한글과컴퓨터의&#160;</p>
+<p style="position:absolute;top:418px;left:180px;white-space:nowrap" class="ft41">본&#160;&#160;저작권을&#160;&#160;충분히&#160;&#160;인식하고&#160;&#160;동의하여야&#160;&#160;합니다.</p>
+<p style="position:absolute;top:450px;left:180px;white-space:nowrap" class="ft41">본&#160;&#160;문서를&#160;&#160;누구나&#160;&#160;열람,&#160;&#160;복사,&#160;&#160;배포,&#160;&#160;게재&#160;&#160;및&#160;&#160;사용을&#160;&#160;자유롭게&#160;&#160;할&#160;&#160;수&#160;&#160;있습니다.&#160;&#160;다만,&#160;&#160;배포는&#160;</p>
+<p style="position:absolute;top:474px;left:180px;white-space:nowrap" class="ft41">원&#160;내용이&#160;일체&#160;수정되지&#160;않은&#160;원본&#160;또는&#160;복사본으로&#160;제한됩니다.&#160;원본&#160;및&#160;복사본은&#160;한컴에서&#160;</p>
+<p style="position:absolute;top:498px;left:180px;white-space:nowrap" class="ft41">제공하는&#160;&#160;스펙의&#160;&#160;최신&#160;&#160;버전을&#160;&#160;포함하고&#160;&#160;있어야&#160;&#160;합니다.</p>
+<p style="position:absolute;top:529px;left:180px;white-space:nowrap" class="ft41">한컴은&#160;한컴오피스&#160;�글&#160;문서&#160;파일(.hwp)&#160;공개&#160;문서에&#160;따라&#160;얻은&#160;결과물을&#160;기초로&#160;또&#160;다른&#160;독점</p>
+<p style="position:absolute;top:553px;left:180px;white-space:nowrap" class="ft41">적,&#160;&#160;배타적&#160;&#160;권리를&#160;&#160;취득하고&#160;&#160;이를&#160;&#160;(주)한글과컴퓨터를&#160;&#160;상대로&#160;&#160;행사하고자&#160;&#160;하는&#160;&#160;자를&#160;&#160;상대로는&#160;</p>
+<p style="position:absolute;top:577px;left:180px;white-space:nowrap" class="ft41">적극적으로&#160;&#160;권리행사를&#160;&#160;할&#160;&#160;수도&#160;&#160;있습니다.&#160;</p>
+<p style="position:absolute;top:608px;left:180px;white-space:nowrap" class="ft41">그리고,&#160;&#160;본&#160;&#160;문서&#160;&#160;및&#160;&#160;본&#160;&#160;문서에&#160;&#160;기재된&#160;&#160;내용을&#160;&#160;참고하여&#160;&#160;개발한&#160;&#160;결과물에&#160;&#160;대한&#160;&#160;모든&#160;&#160;저작권은&#160;</p>
+<p style="position:absolute;top:632px;left:180px;white-space:nowrap" class="ft41">결과물을&#160;&#160;개발한&#160;&#160;개인&#160;&#160;또는&#160;&#160;단체에&#160;&#160;있을&#160;&#160;것입니다.&#160;&#160;그러나&#160;&#160;반드시&#160;&#160;개발&#160;&#160;결과물에&#160;&#160;“본&#160;&#160;제품은&#160;</p>
+<p style="position:absolute;top:656px;left:180px;white-space:nowrap" class="ft41">한글과컴퓨터의&#160;&#160;�글&#160;&#160;문서&#160;&#160;파일(.hwp)&#160;&#160;공개&#160;&#160;문서를&#160;&#160;참고하여&#160;&#160;개발하였습니다.”라고&#160;&#160;제품&#160;&#160;내&#160;</p>
+<p style="position:absolute;top:680px;left:180px;white-space:nowrap" class="ft41">유저인터페이스,&#160;매뉴얼,&#160;도움말&#160;및&#160;소스에&#160;모두&#160;기재하여야하며&#160;제품이&#160;이러한&#160;구성물이&#160;없을&#160;</p>
+<p style="position:absolute;top:704px;left:180px;white-space:nowrap" class="ft41">시에는&#160;존재하는&#160;구성물에만&#160;기재합니다.&#160;한컴은&#160;본&#160;문서&#160;및&#160;본&#160;문서에&#160;기재된&#160;내용을&#160;참고하여&#160;</p>
+<p style="position:absolute;top:728px;left:180px;white-space:nowrap" class="ft41">개발한&#160;&#160;결과물에&#160;&#160;대해서&#160;&#160;어떠한&#160;&#160;정확성,&#160;&#160;진실성도&#160;&#160;보증하지&#160;&#160;아니합니다.</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>한글문서파일형식_배포용문서_revision1.2-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft50{font-size:11px;font-family:Times;color:#ffffff;}
+	.ft51{font-size:12px;font-family:Times;color:#000000;}
+	.ft52{font-size:21px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page5-div" style="position:relative;width:892px;height:1261px;">
+<img width="892" height="1261" src="한글문서파일형식_배포용문서_revision1.2005.png" alt="background image"/>
+<p style="position:absolute;top:85px;left:128px;white-space:nowrap" class="ft50"><b>�글&#160;&#160;문서&#160;&#160;파일&#160;&#160;형식&#160;&#160;–&#160;&#160;배포용&#160;&#160;문서</b></p>
+<p style="position:absolute;top:1182px;left:757px;white-space:nowrap" class="ft51">2</p>
+<p style="position:absolute;top:149px;left:140px;white-space:nowrap" class="ft52"><b>본&#160;&#160;문서에&#160;&#160;대하여...</b></p>
+<p style="position:absolute;top:195px;left:180px;white-space:nowrap" class="ft51">본&#160;문서는&#160;�글&#160;워드&#160;프로세서의&#160;파일&#160;저장&#160;형식&#160;중,&#160;�글&#160;2002&#160;이후&#160;제품에서&#160;사용되는&#160;�글&#160;</p>
+<p style="position:absolute;top:219px;left:180px;white-space:nowrap" class="ft51">문서&#160;&#160;파일&#160;&#160;형식의&#160;&#160;배포용&#160;&#160;문서에&#160;&#160;관하여&#160;&#160;설명한다.</p>
+<p style="position:absolute;top:250px;left:180px;white-space:nowrap" class="ft51">본&#160;&#160;문서는&#160;&#160;�글&#160;&#160;문서&#160;&#160;파일&#160;&#160;형식의&#160;&#160;배포용&#160;&#160;문서에&#160;&#160;관한&#160;&#160;주요한&#160;&#160;자료&#160;&#160;구조에&#160;&#160;대해서&#160;&#160;설명한다.</p>
+<p style="position:absolute;top:282px;left:180px;white-space:nowrap" class="ft51">�글&#160;&#160;문서&#160;&#160;파일형식&#160;&#160;5.0,&#160;&#160;수식,&#160;&#160;차트,&#160;&#160;�글&#160;&#160;문서&#160;&#160;파일&#160;&#160;형식&#160;&#160;3.0,&#160;&#160;HWPML에&#160;&#160;관해서는&#160;&#160;별도의&#160;</p>
+<p style="position:absolute;top:306px;left:180px;white-space:nowrap" class="ft51">문서에서&#160;&#160;설명한다.</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>한글문서파일형식_배포용문서_revision1.2-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft60{font-size:11px;font-family:Times;color:#ffffff;}
+	.ft61{font-size:12px;font-family:Times;color:#000000;}
+	.ft62{font-size:21px;font-family:Times;color:#000000;}
+	.ft63{font-size:17px;font-family:Times;color:#000000;}
+	.ft64{font-size:11px;font-family:Times;color:#000000;}
+	.ft65{font-size:11px;font-family:Times;color:#000000;}
+	.ft66{font-size:12px;font-family:Times;color:#000000;}
+	.ft67{font-size:11px;line-height:13px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page6-div" style="position:relative;width:892px;height:1261px;">
+<img width="892" height="1261" src="한글문서파일형식_배포용문서_revision1.2006.png" alt="background image"/>
+<p style="position:absolute;top:85px;left:550px;white-space:nowrap" class="ft60"><b>�글&#160;&#160;문서&#160;&#160;파일&#160;&#160;형식&#160;&#160;–&#160;&#160;배포용&#160;&#160;문서</b></p>
+<p style="position:absolute;top:1182px;left:757px;white-space:nowrap" class="ft61">3</p>
+<p style="position:absolute;top:149px;left:140px;white-space:nowrap" class="ft62"><b>배포용&#160;&#160;문서</b></p>
+<p style="position:absolute;top:205px;left:153px;white-space:nowrap" class="ft63"><b>1.&#160;배포용&#160;&#160;문서&#160;&#160;데이터</b></p>
+<p style="position:absolute;top:244px;left:180px;white-space:nowrap" class="ft61">배포용&#160;&#160;문서는&#160;문서를&#160;배포할&#160;시&#160;원본문서의&#160;일반적인&#160;편집을&#160;제한하기&#160;&#160;위해서&#160;&#160;설계된&#160;</p>
+<p style="position:absolute;top:268px;left:180px;white-space:nowrap" class="ft61">기능이다.&#160;&#160;&#160;&#160;그&#160;&#160;외에도&#160;&#160;복사/붙이기,&#160;&#160;인쇄를&#160;&#160;&#160;&#160;제한하는&#160;&#160;설정을&#160;&#160;할&#160;&#160;수&#160;&#160;있다.</p>
+<p style="position:absolute;top:300px;left:180px;white-space:nowrap" class="ft61">배포용문서와&#160;&#160;일반문서는&#160;&#160;다음과&#160;&#160;같은&#160;&#160;차이점을&#160;&#160;가진다.</p>
+<p style="position:absolute;top:477px;left:180px;white-space:nowrap" class="ft61">배포용&#160;&#160;문서는&#160;&#160;본문&#160;&#160;스트림을&#160;&#160;암호화하고&#160;&#160;있으며,&#160;&#160;이&#160;&#160;외에도&#160;&#160;다음과&#160;&#160;같은&#160;&#160;스트림을&#160;</p>
+<p style="position:absolute;top:501px;left:180px;white-space:nowrap" class="ft61">암호화&#160;&#160;한다.</p>
+<p style="position:absolute;top:564px;left:203px;white-space:nowrap" class="ft64">-&#160;ViewText/Section0&#160;&#160;...&#160;&#160;N</p>
+<p style="position:absolute;top:589px;left:203px;white-space:nowrap" class="ft64">-&#160;Scripts/JScriptVersion</p>
+<p style="position:absolute;top:614px;left:203px;white-space:nowrap" class="ft64">-&#160;Scripts/DefaultJScript</p>
+<p style="position:absolute;top:639px;left:203px;white-space:nowrap" class="ft64">-&#160;DocHistory/HistoryLastDoc</p>
+<p style="position:absolute;top:664px;left:203px;white-space:nowrap" class="ft64">-&#160;DocHistory/VersionLog0&#160;&#160;...&#160;&#160;N</p>
+<p style="position:absolute;top:721px;left:180px;white-space:nowrap" class="ft61">해당&#160;&#160;스트림들은&#160;&#160;다음의&#160;&#160;“배포용&#160;&#160;문서&#160;&#160;데이터”&#160;&#160;레코드로&#160;&#160;시작된다.</p>
+<p style="position:absolute;top:752px;left:180px;white-space:nowrap" class="ft61">Tag&#160;&#160;ID&#160;&#160;:&#160;&#160;HWPTAG_DISTRIBUTE_DOC_DATA</p>
+<p style="position:absolute;top:935px;left:180px;white-space:nowrap" class="ft61">“배포용&#160;&#160;문서&#160;&#160;데이터”&#160;&#160;레코드로&#160;&#160;생성되는&#160;&#160;데이터는&#160;&#160;다음과&#160;&#160;같다.</p>
+<p style="position:absolute;top:789px;left:232px;white-space:nowrap" class="ft65"><b>자료형</b></p>
+<p style="position:absolute;top:789px;left:325px;white-space:nowrap" class="ft65"><b>길이(바이트)</b></p>
+<p style="position:absolute;top:789px;left:558px;white-space:nowrap" class="ft65"><b>설명</b></p>
+<p style="position:absolute;top:809px;left:203px;white-space:nowrap" class="ft64">BYTE&#160;&#160;array[256]</p>
+<p style="position:absolute;top:809px;left:349px;white-space:nowrap" class="ft64">256</p>
+<p style="position:absolute;top:809px;left:408px;white-space:nowrap" class="ft64">배포용&#160;&#160;문서&#160;&#160;데이터</p>
+<p style="position:absolute;top:829px;left:223px;white-space:nowrap" class="ft64">전체&#160;&#160;길이</p>
+<p style="position:absolute;top:829px;left:349px;white-space:nowrap" class="ft64">256</p>
+<p style="position:absolute;top:859px;left:389px;white-space:nowrap" class="ft66"><b>표&#160;&#160;2&#160;&#160;배포용&#160;&#160;문서&#160;&#160;데이터</b></p>
+<p style="position:absolute;top:971px;left:232px;white-space:nowrap" class="ft65"><b>자료형</b></p>
+<p style="position:absolute;top:971px;left:325px;white-space:nowrap" class="ft65"><b>길이(바이트)</b></p>
+<p style="position:absolute;top:971px;left:558px;white-space:nowrap" class="ft65"><b>설명</b></p>
+<p style="position:absolute;top:998px;left:200px;white-space:nowrap" class="ft64">WCHAR&#160;&#160;array[40]</p>
+<p style="position:absolute;top:998px;left:352px;white-space:nowrap" class="ft64">80</p>
+<p style="position:absolute;top:991px;left:408px;white-space:nowrap" class="ft67">-&#160;&#160;배포용&#160;&#160;문서를&#160;&#160;생성할&#160;&#160;때&#160;&#160;사용된&#160;&#160;암호의&#160;&#160;SHA1&#160;&#160;해시코드<br/>-&#160;&#160;암복호화용&#160;&#160;키(처음부터16바이트까지)</p>
+<p style="position:absolute;top:1036px;left:228px;white-space:nowrap" class="ft64">WCHAR</p>
+<p style="position:absolute;top:1036px;left:356px;white-space:nowrap" class="ft64">2</p>
+<p style="position:absolute;top:1022px;left:408px;white-space:nowrap" class="ft64">배포용&#160;&#160;문서&#160;&#160;옵션&#160;&#160;flag</p>
+<p style="position:absolute;top:1036px;left:408px;white-space:nowrap" class="ft67">0x01&#160;&#160;=&#160;&#160;복사방지&#160;&#160;설정<br/>0x02&#160;&#160;=&#160;&#160;인쇄방지&#160;&#160;설정</p>
+<p style="position:absolute;top:336px;left:391px;white-space:nowrap" class="ft65"><b>배포용문서</b></p>
+<p style="position:absolute;top:336px;left:608px;white-space:nowrap" class="ft65"><b>일반문서</b></p>
+<p style="position:absolute;top:356px;left:217px;white-space:nowrap" class="ft64">본문&#160;&#160;스트림</p>
+<p style="position:absolute;top:356px;left:372px;white-space:nowrap" class="ft64">ViewText/Section</p>
+<p style="position:absolute;top:356px;left:582px;white-space:nowrap" class="ft64">BodyText/Section</p>
+<p style="position:absolute;top:374px;left:217px;white-space:nowrap" class="ft64">암호화&#160;&#160;여부</p>
+<p style="position:absolute;top:374px;left:415px;white-space:nowrap" class="ft64">○</p>
+<p style="position:absolute;top:374px;left:628px;white-space:nowrap" class="ft64">×</p>
+<p style="position:absolute;top:398px;left:238px;white-space:nowrap" class="ft64">비고</p>
+<p style="position:absolute;top:391px;left:333px;white-space:nowrap" class="ft64">복사,&#160;&#160;인쇄제한을&#160;&#160;위한&#160;&#160;플래그를&#160;</p>
+<p style="position:absolute;top:405px;left:409px;white-space:nowrap" class="ft64">가짐</p>
+<p style="position:absolute;top:433px;left:346px;white-space:nowrap" class="ft66"><b>표&#160;&#160;1&#160;&#160;배포용&#160;&#160;문서와&#160;&#160;일반&#160;&#160;문서의&#160;&#160;차이점</b></p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>한글문서파일형식_배포용문서_revision1.2-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft70{font-size:11px;font-family:Times;color:#ffffff;}
+	.ft71{font-size:12px;font-family:Times;color:#000000;}
+	.ft72{font-size:17px;font-family:Times;color:#000000;}
+	.ft73{font-size:15px;font-family:Times;color:#000000;}
+	.ft74{font-size:11px;font-family:Times;color:#000000;}
+	.ft75{font-size:12px;font-family:Times;color:#000000;}
+	.ft76{font-size:11px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page7-div" style="position:relative;width:892px;height:1261px;">
+<img width="892" height="1261" src="한글문서파일형식_배포용문서_revision1.2007.png" alt="background image"/>
+<p style="position:absolute;top:85px;left:128px;white-space:nowrap" class="ft70"><b>�글&#160;&#160;문서&#160;&#160;파일&#160;&#160;형식&#160;&#160;–&#160;&#160;배포용&#160;&#160;문서</b></p>
+<p style="position:absolute;top:1182px;left:757px;white-space:nowrap" class="ft71">4</p>
+<p style="position:absolute;top:236px;left:180px;white-space:nowrap" class="ft72"><b>2.&#160;배포용&#160;&#160;문서&#160;&#160;데이터&#160;&#160;복호화</b></p>
+<p style="position:absolute;top:275px;left:180px;white-space:nowrap" class="ft71">다음은&#160;&#160;“배포용&#160;&#160;문서&#160;&#160;데이터”를&#160;&#160;통해&#160;&#160;스트림을&#160;&#160;복호화하는&#160;&#160;과정을&#160;&#160;설명한다.</p>
+<p style="position:absolute;top:758px;left:153px;white-space:nowrap" class="ft73"><b>2.1.&#160;Seed&#160;&#160;찾기</b></p>
+<p style="position:absolute;top:793px;left:180px;white-space:nowrap" class="ft71">복호화과정에&#160;&#160;필요한&#160;&#160;Seed값은&#160;&#160;&#160;&#160;“배포용&#160;&#160;문서&#160;&#160;데이터”의&#160;&#160;처음&#160;&#160;4바이트이다.</p>
+<p style="position:absolute;top:944px;left:153px;white-space:nowrap" class="ft73"><b>2.2.&#160;난수&#160;&#160;배열&#160;&#160;만들기</b></p>
+<p style="position:absolute;top:979px;left:180px;white-space:nowrap" class="ft71">배포용&#160;&#160;문서&#160;데이터에서&#160;&#160;해시코드를&#160;&#160;추출하기&#160;위해서는&#160;우선&#160;&#160;특정패턴을&#160;지닌&#160;난수배</p>
+<p style="position:absolute;top:1003px;left:180px;white-space:nowrap" class="ft71">열을&#160;&#160;생성해야&#160;&#160;한다.&#160;&#160;이때&#160;&#160;패턴을&#160;&#160;생성하기&#160;&#160;위해&#160;&#160;MS&#160;&#160;Visual&#160;&#160;C의&#160;&#160;랜덤함수(srand(),&#160;</p>
+<p style="position:absolute;top:1027px;left:180px;white-space:nowrap" class="ft71">rand())를&#160;&#160;사용한다.</p>
+<p style="position:absolute;top:1059px;left:180px;white-space:nowrap" class="ft71">srand()의&#160;초기&#160;&#160;값은&#160;앞서&#160;찾은&#160;&#160;Seed를&#160;&#160;입력하며,&#160;rand()함수의&#160;&#160;결과값에&#160;&#160;따라&#160;배열의&#160;</p>
+<p style="position:absolute;top:1083px;left:180px;white-space:nowrap" class="ft71">값이&#160;&#160;채워진다.</p>
+<p style="position:absolute;top:1114px;left:180px;white-space:nowrap" class="ft71">배열의&#160;&#160;값이&#160;&#160;채워지는&#160;&#160;방식은&#160;&#160;다음과&#160;&#160;같다.</p>
+<p style="position:absolute;top:162px;left:223px;white-space:nowrap" class="ft74">전체&#160;&#160;길이</p>
+<p style="position:absolute;top:162px;left:352px;white-space:nowrap" class="ft74">82</p>
+<p style="position:absolute;top:192px;left:355px;white-space:nowrap" class="ft75"><b>표&#160;&#160;3&#160;&#160;해시코드와&#160;&#160;옵션&#160;&#160;플래그&#160;&#160;데이터</b></p>
+<p style="position:absolute;top:830px;left:232px;white-space:nowrap" class="ft76"><b>자료형</b></p>
+<p style="position:absolute;top:830px;left:325px;white-space:nowrap" class="ft76"><b>길이(바이트)</b></p>
+<p style="position:absolute;top:830px;left:558px;white-space:nowrap" class="ft76"><b>설명</b></p>
+<p style="position:absolute;top:850px;left:235px;white-space:nowrap" class="ft74">UINT</p>
+<p style="position:absolute;top:850px;left:356px;white-space:nowrap" class="ft74">4</p>
+<p style="position:absolute;top:850px;left:408px;white-space:nowrap" class="ft74">Seed&#160;&#160;(배포용&#160;&#160;문서&#160;&#160;데이터의&#160;&#160;첫&#160;&#160;4바이트)</p>
+<p style="position:absolute;top:870px;left:223px;white-space:nowrap" class="ft74">전체&#160;&#160;길이</p>
+<p style="position:absolute;top:870px;left:356px;white-space:nowrap" class="ft74">4</p>
+<p style="position:absolute;top:900px;left:430px;white-space:nowrap" class="ft75"><b>표&#160;&#160;4&#160;&#160;Seed</b></p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>한글문서파일형식_배포용문서_revision1.2-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft80{font-size:11px;font-family:Times;color:#ffffff;}
+	.ft81{font-size:12px;font-family:Times;color:#000000;}
+	.ft82{font-size:11px;font-family:Times;color:#000000;}
+	.ft83{font-size:11px;font-family:Times;color:#000000;}
+	.ft84{font-size:15px;font-family:Times;color:#000000;}
+	.ft85{font-size:11px;line-height:17px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page8-div" style="position:relative;width:892px;height:1261px;">
+<img width="892" height="1261" src="한글문서파일형식_배포용문서_revision1.2008.png" alt="background image"/>
+<p style="position:absolute;top:85px;left:550px;white-space:nowrap" class="ft80"><b>�글&#160;&#160;문서&#160;&#160;파일&#160;&#160;형식&#160;&#160;–&#160;&#160;배포용&#160;&#160;문서</b></p>
+<p style="position:absolute;top:1182px;left:757px;white-space:nowrap" class="ft81">5</p>
+<p style="position:absolute;top:188px;left:203px;white-space:nowrap" class="ft82">1.&#160;&#160;srand()&#160;&#160;초기화&#160;&#160;(Seed&#160;&#160;사용)</p>
+<p style="position:absolute;top:213px;left:203px;white-space:nowrap" class="ft82">2.&#160;rand()함수의&#160;결과&#160;값을&#160;이용하여&#160;배열을&#160;채운다.&#160;단,&#160;rand()함수가&#160;호출되는&#160;순번에&#160;따라&#160;그&#160;사용&#160;</p>
+<p style="position:absolute;top:230px;left:219px;white-space:nowrap" class="ft85">방식이&#160;&#160;달라진다.<br/>홀수번째&#160;&#160;:&#160;&#160;배열에&#160;&#160;채워지는&#160;&#160;값<br/>짝수번째&#160;&#160;:&#160;&#160;배열에&#160;&#160;채워지는&#160;&#160;횟수</p>
+<p style="position:absolute;top:291px;left:203px;white-space:nowrap" class="ft82">3.&#160;&#160;홀수번째&#160;&#160;rand()&#160;&#160;&amp;&#160;&#160;0xFF의&#160;&#160;값을&#160;&#160;A라&#160;&#160;하고,&#160;&#160;짝수번째&#160;&#160;(rand()&#160;&#160;&amp;&#160;&#160;0x0F&#160;&#160;+&#160;&#160;1)의&#160;&#160;결과를&#160;&#160;B라&#160;&#160;할&#160;&#160;때</p>
+<p style="position:absolute;top:308px;left:219px;white-space:nowrap" class="ft85">배열에&#160;&#160;A값을&#160;&#160;B번&#160;&#160;횟수만큼&#160;&#160;삽입한다.<br/>예를&#160;&#160;들어&#160;&#160;A가&#160;&#160;‘a’이고,&#160;&#160;B가&#160;&#160;3일&#160;&#160;경우에&#160;&#160;배열에&#160;&#160;‘a’를&#160;&#160;3번&#160;&#160;삽입한다.</p>
+<p style="position:absolute;top:351px;left:203px;white-space:nowrap" class="ft82">4.&#160;&#160;배열크기가&#160;&#160;256이&#160;&#160;될&#160;&#160;때까지&#160;&#160;3항을&#160;&#160;반복한다.</p>
+<p style="position:absolute;top:628px;left:389px;white-space:nowrap" class="ft83"><b>그림&#160;&#160;4&#160;&#160;난수&#160;&#160;배열</b></p>
+<p style="position:absolute;top:700px;left:153px;white-space:nowrap" class="ft84"><b>2.3.&#160;해시코드&#160;&#160;추출하기</b></p>
+<p style="position:absolute;top:735px;left:180px;white-space:nowrap" class="ft81">난수&#160;배열을&#160;&#160;생성한&#160;다음에는&#160;“배포용&#160;문서&#160;&#160;데이터”를&#160;이용하여&#160;해시코드와&#160;옵션&#160;&#160;플래</p>
+<p style="position:absolute;top:759px;left:180px;white-space:nowrap" class="ft81">그를&#160;&#160;생성할&#160;&#160;수&#160;&#160;있다.</p>
+<p style="position:absolute;top:790px;left:180px;white-space:nowrap" class="ft81">해시코드와&#160;&#160;옵션&#160;&#160;플래그는&#160;&#160;다음의&#160;&#160;과정을&#160;&#160;통해&#160;&#160;생성된다.</p>
+<p style="position:absolute;top:853px;left:203px;white-space:nowrap" class="ft82">1.&#160;&#160;Seed으로부터&#160;&#160;offset을&#160;&#160;구한다.&#160;&#160;offset은&#160;&#160;다음의&#160;&#160;값과&#160;&#160;같다.</p>
+<p style="position:absolute;top:871px;left:219px;white-space:nowrap" class="ft82">offset&#160;&#160;=&#160;&#160;(Seed&#160;&#160;&amp;&#160;&#160;0x0f)&#160;&#160;+&#160;&#160;sizeof(UINT)</p>
+<p style="position:absolute;top:896px;left:203px;white-space:nowrap" class="ft82">2.&#160;&#160;난수배열과&#160;&#160;“배포용&#160;&#160;문서&#160;&#160;데이터”를&#160;&#160;XOR머지한다.</p>
+<p style="position:absolute;top:921px;left:203px;white-space:nowrap" class="ft82">3.&#160;XOR머지된&#160;결과값에서&#160;offset만큼&#160;떨어진&#160;위치의&#160;80바이트가&#160;해시코드이며,&#160;그&#160;다음&#160;2바이트가&#160;</p>
+<p style="position:absolute;top:938px;left:218px;white-space:nowrap" class="ft82">옵션플래그이다.</p>
+<p style="position:absolute;top:995px;left:180px;white-space:nowrap" class="ft81">해시코드는&#160;&#160;배포용&#160;문서를&#160;만들&#160;때&#160;사용된&#160;암호를&#160;&#160;SHA1&#160;알고리즘으로&#160;변환한&#160;&#160;코드이</p>
+<p style="position:absolute;top:1019px;left:180px;white-space:nowrap" class="ft81">다.&#160;&#160;해당&#160;&#160;코드는&#160;&#160;배포용&#160;&#160;문서를&#160;&#160;해제하거나&#160;&#160;편집하는&#160;&#160;용도로&#160;&#160;사용된다.</p>
+<p style="position:absolute;top:1092px;left:153px;white-space:nowrap" class="ft84"><b>2.4.&#160;해시코드와&#160;&#160;AES-128&#160;&#160;알고리즘을&#160;&#160;이용하여&#160;&#160;레코드&#160;&#160;복호화</b></p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>한글문서파일형식_배포용문서_revision1.2-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft90{font-size:11px;font-family:Times;color:#ffffff;}
+	.ft91{font-size:12px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page9-div" style="position:relative;width:892px;height:1261px;">
+<img width="892" height="1261" src="한글문서파일형식_배포용문서_revision1.2009.png" alt="background image"/>
+<p style="position:absolute;top:85px;left:128px;white-space:nowrap" class="ft90"><b>�글&#160;&#160;문서&#160;&#160;파일&#160;&#160;형식&#160;&#160;–&#160;&#160;배포용&#160;&#160;문서</b></p>
+<p style="position:absolute;top:1182px;left:757px;white-space:nowrap" class="ft91">6</p>
+<p style="position:absolute;top:157px;left:180px;white-space:nowrap" class="ft91">해시코드의&#160;&#160;처음&#160;&#160;16바이트는&#160;&#160;본문&#160;&#160;레코드를&#160;&#160;복호화하는&#160;&#160;용도로&#160;&#160;사용된다.</p>
+<p style="position:absolute;top:188px;left:180px;white-space:nowrap" class="ft91">본문&#160;&#160;레코드는&#160;&#160;AES-128&#160;&#160;ECB를&#160;&#160;통해&#160;&#160;암호화&#160;&#160;되었으므로&#160;&#160;동일&#160;&#160;알고리즘을&#160;&#160;이용하여&#160;</p>
+<p style="position:absolute;top:212px;left:180px;white-space:nowrap" class="ft91">복호화할&#160;&#160;수&#160;&#160;있다.</p>
+<p style="position:absolute;top:243px;left:180px;white-space:nowrap" class="ft91">복호화된&#160;&#160;데이터는&#160;&#160;각&#160;&#160;레코드별&#160;&#160;설명에&#160;&#160;따라&#160;&#160;읽으면&#160;&#160;된다.</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>한글문서파일형식_배포용문서_revision1.2-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft100{font-size:11px;font-family:Times;color:#ffffff;}
+	.ft101{font-size:12px;font-family:Times;color:#000000;}
+	.ft102{font-size:21px;font-family:Times;color:#000000;}
+	.ft103{font-size:15px;font-family:Times;color:#000000;}
+	.ft104{font-size:15px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page10-div" style="position:relative;width:892px;height:1261px;">
+<img width="892" height="1261" src="한글문서파일형식_배포용문서_revision1.2010.png" alt="background image"/>
+<p style="position:absolute;top:85px;left:550px;white-space:nowrap" class="ft100"><b>�글&#160;&#160;문서&#160;&#160;파일&#160;&#160;형식&#160;&#160;–&#160;&#160;배포용&#160;&#160;문서</b></p>
+<p style="position:absolute;top:1182px;left:757px;white-space:nowrap" class="ft101">7</p>
+<p style="position:absolute;top:149px;left:140px;white-space:nowrap" class="ft102"><b>변경&#160;&#160;사항&#160;&#160;이력</b></p>
+<p style="position:absolute;top:196px;left:180px;white-space:nowrap" class="ft103">§</p>
+<p style="position:absolute;top:195px;left:207px;white-space:nowrap" class="ft104"><b>revision&#160;&#160;1.2:20141009</b></p>
+<p style="position:absolute;top:231px;left:203px;white-space:nowrap" class="ft101">-&#160;�글&#160;&#160;문서&#160;&#160;파일&#160;&#160;구조&#160;&#160;파트별로&#160;&#160;구성</p>
+<p style="position:absolute;top:263px;left:203px;white-space:nowrap" class="ft101">-&#160;�글&#160;&#160;문서&#160;&#160;파일&#160;&#160;형식&#160;&#160;–&#160;&#160;배포용&#160;&#160;문서&#160;&#160;형식&#160;&#160;공개</p>
+</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+<title>한글문서파일형식_배포용문서_revision1.2-html.html</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+ <br/>
+<style type="text/css">
+<!--
+	p {margin: 0; padding: 0;}	.ft110{font-size:11px;font-family:Times;color:#ffffff;}
+	.ft111{font-size:12px;font-family:Times;color:#000000;}
+	.ft112{font-size:21px;font-family:Times;color:#000000;}
+	.ft113{font-size:15px;font-family:Times;color:#000000;}
+-->
+</style>
+</head>
+<body bgcolor="#A0A0A0" vlink="blue" link="blue">
+<div id="page11-div" style="position:relative;width:892px;height:1261px;">
+<img width="892" height="1261" src="한글문서파일형식_배포용문서_revision1.2011.png" alt="background image"/>
+<p style="position:absolute;top:85px;left:128px;white-space:nowrap" class="ft110"><b>�글&#160;&#160;문서&#160;&#160;파일&#160;&#160;형식&#160;&#160;–&#160;&#160;배포용&#160;&#160;문서</b></p>
+<p style="position:absolute;top:1182px;left:757px;white-space:nowrap" class="ft111">8</p>
+<p style="position:absolute;top:501px;left:255px;white-space:nowrap" class="ft112">한글&#160;&#160;문서&#160;&#160;파일&#160;&#160;구조&#160;&#160;–&#160;&#160;배포용&#160;&#160;문서</p>
+<p style="position:absolute;top:572px;left:248px;white-space:nowrap" class="ft113">발행처</p>
+<p style="position:absolute;top:572px;left:334px;white-space:nowrap" class="ft113">(주)&#160;&#160;한글과컴퓨터</p>
+<p style="position:absolute;top:610px;left:248px;white-space:nowrap" class="ft113">주&#160;&#160;&#160;&#160;소</p>
+<p style="position:absolute;top:611px;left:334px;white-space:nowrap" class="ft113">(우)&#160;&#160;463-400</p>
+<p style="position:absolute;top:640px;left:334px;white-space:nowrap" class="ft113">경기도&#160;&#160;성남시&#160;&#160;분당구&#160;&#160;대왕판교로&#160;</p>
+<p style="position:absolute;top:669px;left:334px;white-space:nowrap" class="ft113">644번길&#160;&#160;49&#160;&#160;한컴타워&#160;&#160;10층</p>
+<p style="position:absolute;top:697px;left:334px;white-space:nowrap" class="ft113">전화:&#160;&#160;(031)&#160;&#160;627-7000</p>
+<p style="position:absolute;top:726px;left:334px;white-space:nowrap" class="ft113">팩스:&#160;&#160;(031)&#160;&#160;627-7709</p>
+</div>
+</body>
+</html>
